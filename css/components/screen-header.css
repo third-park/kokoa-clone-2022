@@ -4,6 +4,8 @@
     align-items: center;
     padding: var(--horizontal-space);
     padding-top: 45px;
+    margin-bottom: 15px;
+        position: relative;
 }
 
 .screen-header__title {
@@ -17,4 +19,9 @@
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
+}
+.screen-point {
+    position: absolute;
+    right: 17px;
+    top: 48px
 }
